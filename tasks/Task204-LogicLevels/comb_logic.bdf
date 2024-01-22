@@ -88,7 +88,7 @@ https://fpgasoftware.intel.com/eula.
 	(annotation_block (location)(rect 896 192 960 216))
 )
 (symbol
-	(rect 536 192 656 304)
+	(rect 536 200 656 312)
 	(text "uop_dlatch" (rect 5 0 58 12)(font "Arial" ))
 	(text "inst" (rect 8 96 25 108)(font "Arial" ))
 	(port
@@ -128,27 +128,43 @@ https://fpgasoftware.intel.com/eula.
 	(pt 480 208)
 )
 (connector
-	(pt 520 224)
-	(pt 536 224)
+	(pt 520 232)
+	(pt 536 232)
 )
 (connector
 	(pt 520 208)
-	(pt 520 224)
+	(pt 520 232)
 )
 (connector
-	(pt 656 224)
+	(pt 664 224)
+	(pt 664 232)
+)
+(connector
 	(pt 720 224)
+	(pt 664 224)
+)
+(connector
+	(pt 664 232)
+	(pt 656 232)
+)
+(connector
+	(pt 528 240)
+	(pt 528 248)
 )
 (connector
 	(pt 480 240)
-	(pt 536 240)
+	(pt 528 240)
 )
 (connector
-	(pt 536 256)
-	(pt 480 256)
+	(pt 528 248)
+	(pt 536 248)
 )
 (connector
-	(pt 480 256)
+	(pt 480 264)
+	(pt 536 264)
+)
+(connector
 	(pt 480 304)
+	(pt 480 264)
 )
 (text "These push-button inputs are push to PULL-DOWN" (rect 400 144 700 163)(font "Intel Clear" (font_size 8)))
